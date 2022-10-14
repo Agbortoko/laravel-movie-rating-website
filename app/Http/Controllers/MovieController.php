@@ -9,6 +9,13 @@ use Illuminate\Support\Carbon;
 
 class MovieController extends Controller
 {
+
+
+    public function __construct(){
+        $this->middleware('auth')->only(['create', 'store', 'destroy']);
+    }
+
+
     /**
      * Display a listing of the resource.
      *

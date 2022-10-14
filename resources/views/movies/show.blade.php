@@ -47,7 +47,7 @@
                     @unless(count($movie->casts) == 0)
 
                     @foreach($movie->casts as $cast)
-                     <li class="list-group-item">{{ $cast->name }} - 
+                     <li class="list-group-item"> <a href="{{ route('casts.show', $cast->id) }}"> {{ $cast->name }} </a>- 
                          <span class="text-muted"><em>{{ $cast->pivot->role }}</em></span>
                          @auth
                          <form action="{{ route('movie_cast_destroy', [$movie->id, $cast->id]) }}" method="POST">
