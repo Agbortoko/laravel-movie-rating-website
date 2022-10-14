@@ -1,7 +1,9 @@
 ## Laravel Movie Rating Website
-Simple movie rating site made with laravel 9.
-User Authentication
-Simple Comment system
+- Simple movie rating site made with laravel 9.
+- User Authentication
+- Simple Comment system
+
+Preview [https://m.easythingz.net/]
 
 
 ## Database
