@@ -2,7 +2,7 @@
 Simple movie rating site made with laravel 9.
 User Authentication
 Simple Comment system
-(Website Live Preview)[https://movie.easythingz.net]
+
 
 ## Database
 Execute the database migration command to get the database
