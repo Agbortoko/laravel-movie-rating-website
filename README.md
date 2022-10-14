@@ -1,5 +1,11 @@
 ## Laravel Movie Rating Website
+Simple movie rating site made with laravel 9.
+User Authentication
+Simple Comment system
 (Website Live Preview)[https://movie.easythingz.net]
+
+## Database
+Execute the database migration command to get the database
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
