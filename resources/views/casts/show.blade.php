@@ -37,6 +37,7 @@
                 </ul>
             </div>
 
+            @auth
             <div class="card-footer">
                 <form action="{{ route('casts.destroy', $cast->id) }}" method="POST">
                     @csrf
@@ -47,6 +48,7 @@
                     </button>
                 </form>
             </div>
+            @endauth
             
         </div>
 
